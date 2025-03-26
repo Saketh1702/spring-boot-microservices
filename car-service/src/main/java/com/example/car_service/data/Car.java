@@ -40,11 +40,11 @@ public class Car {
         this.name = name;
     }
 
-//     @Override
-//     public String toString() {
-//         return "Car{" + 
-//                 "id=" + id +
-//                 ", name='" + name + '\'' +
-//                 '}';
-//     }
-// } 
+    @Override
+    public String toString() {
+        return "Car{" + 
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+} 
