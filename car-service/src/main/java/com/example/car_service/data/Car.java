@@ -1,4 +1,4 @@
-package com.example.carservice,.data;
+package com.example.car_service.data;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,7 +20,7 @@ public class Car {
     private String name;
 
     public Car(String name) {
-        this.name = name
+        this.name = name;
     }
 
     //getters and setters
